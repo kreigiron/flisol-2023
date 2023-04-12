@@ -23,6 +23,8 @@ https://kreigiron.github.io/flisol-2023
 <!-- Saludos e Introduccion -->
 
 ---
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/9/91/Final_Fantasy_logo_with_japanese_name.svg)
+
 # ¿Para que preservar?
 ## Videojuegos como expresión artística
 
@@ -40,23 +42,21 @@ https://kreigiron.github.io/flisol-2023
 ---
 # ¿Para qué preservar?
 ## Videojuegos como logro técnico
-
-* Piezas unicas escritas a mano
-  * Efectos visuales
-    * Sprites
-  * Musica
-  * Interaccion
-* Ejecucion en hardware obsoleto o fuera de produccion
-  * Sensible al "ritmo" o velocidad de hardware para una correcta reproduccion
-* Plataformas o tiendas en linea privativas del fabricante
+![bg left 80%](https://upload.wikimedia.org/wikipedia/commons/7/75/RP2A03E.jpg)
+* Piezas unicas escritas a mano.
+  * Efectos visuales, Musica, Interaccion.
+* Ejecucion en hardware obsoleto o fuera de produccion.
+  * Sensible al "ritmo" o velocidad de hardware para una correcta reproduccion.
+* Plataformas o tiendas en linea privativas del fabricante.
 <!-- tienden a morir, e.g. 3ds store que cerro el mes pasado, etc-->
 
 ---
 # ¿Para qué preservar?
+![bg right 50%](https://img.buzzfeed.com/buzzfeed-static/static/2020-04/15/22/asset/1052735824f9/sub-buzz-1257-1586990219-2.jpg)
 ## Nostalgia
 
 ---
-
+<!--
 ## Por qué con FOSS?
 - Libre de ataduras privativas del fabricante
   - Dominio público
@@ -65,18 +65,18 @@ https://kreigiron.github.io/flisol-2023
 
 
 ---
+-->
 
-
+![bg left 80%](https://upload.wikimedia.org/wikipedia/commons/4/46/Heat_decap_with_MAPP_gas.jpg)
 # Cómo preservarlo?
 ## Hardware (Consolas y dispositivos fisicos):
-* Creacion de emuladores por software  
-* Ingenieria inversa del hardware o uso de especificaciones abiertas
-  * Schematics Verilog
-    * MisTer repo
+* Ingenieria inversa del hardware.
+* Recreacion por el uso uso de especificaciones abiertas.
 
 ---
 # Cómo preservarlo?
-## Software
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/a/aa/Floppy_disk_2009_G1.jpg)
+## Software (Juegos)
 - Medios de almacenamiento vulnerables 
   - cartucho
     - Hardware de lectura no disponible u obsoleto
@@ -86,7 +86,7 @@ https://kreigiron.github.io/flisol-2023
     - Deteorioro ambiental  
 ---
 # Cómo preservarlo?
-
+## Proyectos de preservación
 * Redump project - http://redump.org/
   - Guias y herramientas para
     - extraer - dump
@@ -106,6 +106,8 @@ https://kreigiron.github.io/flisol-2023
 
 # Como recrearlos?
 ## Recreación por hardware 
+![bg right 80%](https://junkerhq.net/xrgb/images/b/b1/Ossc-logo-small.png)
+![bg right 80%](https://junkerhq.net/xrgb/images/1/18/Ossc_v1.7.jpg)
 - Hardware original y clones
   - CRT
     - Upscalers por hardware
@@ -201,12 +203,26 @@ https://www.retroreversing.com/
     * Medicina
     * Videojuegos
 --- 
-# Proyectos de recreacion FOSS por FPGA
+## Proyectos de recreacion FOSS por FPGA
 * MisT
 * MisTER
 
+---
+# Conclusiones
+* 4 principios del software libre
+  * como manera de recrear y ejecutar aplicaciones y juegos de plataformas obsoletas <!-- Ejecutarlo donde sea cuando sea sin depender del fabricante -->
+    * Plataforma de ejecucion de dominio publico
+  * como medio de aprendizaje de tecnicas y optimizacion a bajo nivel 
+    * Desarrollo colaborativo
+  * como plataforma de distribucion de las que antes eran tecnologias privativas 
+    * e.g. MiSTer project
+  * como manera de mejorarlo continuamente 
+    * e.g. upscalers(ossc), overclocking
+
+---
 # Dudas
 
+---
 ![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
 
 ---
@@ -220,7 +236,7 @@ https://www.retroreversing.com/
 
 ---
 
-![bg right 60%](https://icongr.am/octicons/mark-github.svg)
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/9/91/Final_Fantasy_logo_with_japanese_name.svg)
 
 ## **[GitHub Pages](https://github.com/pages)**
 
