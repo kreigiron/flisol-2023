@@ -119,28 +119,51 @@ https://kreigiron.github.io/flisol-2023
 
 ---
 # Como recrearlos?
-## Recreación por Software
+## Recreación por Software: port FOSS
   - Port multiplataforma por liberacion de codigo del fabricante liberados bajo una licencia FOSS
-    - Doom
-      - <!-- imagen doom corriendo en una refri -->
 ---
+![bg left 80%](https://happymag.tv/wp-content/uploads/2020/10/doompotato3-870x524.jpg)
 # Como recrearlos?
-## Recreación por Software
-  - Port multiplataforma por liberacion de codigo del fabricante liberados bajo una licencia FOSS
-    - Quake
-      - OpenArena
+## Recreación por Software: port FOSS
+
+### Doom
+  * https://github.com/id-Software/DOOM
+---
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/e/e8/OpenArena_0.8.8_main_menu.png)
+# Como recrearlos?
+## Recreación por Software: port FOSS
+### Quake
+  - Quake https://ioquake3.org/
+    - OpenArena https://github.com/OpenArena/
+
 ---
 # Recreación por Software
 ## Ingeniería inversa
-https://www.retroreversing.com/
+
   - Port multiplataforma por reverse engineering liberados bajo una licencia FOSS   
-    - Super Mario 64 - https://github.com/n64decomp/sm64 - Licencia CC0
+    - https://www.retroreversing.com/
+---
+![bg left 80%](https://media.techeblog.com/images/super-mario-64-pc-port-60fps.jpg)
+# Recreación por Software
+## Ingeniería inversa
+- Super Mario 64 - https://github.com/n64decomp/sm64 - Licencia CC0
+
+---
+![bg right 60%](https://raw.githubusercontent.com/kreigiron/flisol-2023/assets/zelda64code.png)
+# Recreación por Software
+## Ingeniería inversa
+
+- Zelda Ocarina of Time https://github.com/HarbourMasters/Shipwright 
+<!-- demo -->
+
+---
+# Recreación por Software
+## Ingeniería inversa
+  - Otros ports
     - Super Metroid - https://github.com/snesrev/sm - Licencia MIT
     - Zelda - A link to the past https://github.com/snesrev/zelda3
-    - Zelda Ocarina of Time https://github.com/HarbourMasters/Shipwright 
-    - Diablo - https://github.com/diasurgical/devilutionX Licencia SUL (?)
-  
-
+    - Diablo - https://github.com/diasurgical/devilutionX Licencia SUL 
+    - entre otros
 
 ---
 # Recreación por Software
@@ -154,38 +177,77 @@ https://www.retroreversing.com/
 
 
 ---
-
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/f/f0/ZSNES_Windows_Screenshot.png)
 ## Ejemplos sobresalientes de emuladores FOSS
   - Zsnes (obsoleto)
+    - snes
     - Programado en ASM x86
     - Liberado en 2000 bajo la GPL
-    - Repo link
+      - https://sourceforge.net/projects/zsnes/
+      - https://github.com/xyproto/zsnes (fork)
 ---  
+![bg left 60%](https://upload.wikimedia.org/wikipedia/commons/a/ad/The_logo_for_multi-system_emulator_higan.svg)
 ## Ejemplos sobresalientes de emuladores FOSS  
   - BSnes/Higan
-    - Programado mayormente en C
-    - Enfocado en exactitud
+    - snes y multiconsola (higan)
+    - C/C++
+    - Enfocado en exactitud    
+    - Licencia GPLv3
+      - https://github.com/bsnes-emu/bsnes
+      - https://github.com/higan-emu/higan
 
 ---
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/a/a2/Logo_Duckstation.svg)
 ## Ejemplos sobresalientes de emuladores FOSS  
-  - Duckstation https://github.com/stenzek/duckstation
+  - Duckstation 
+    - PSX
+    - C++
+    - Mejoras tecnicas a la consola 
+      - anti alias
+      - z buffer emulation
+    - Licencia GPLv3
+      - https://github.com/stenzek/duckstation
 ---
-## Ejemplos sobresalientes de emuladores FOSS  
-  - PCSX2
----
+![bg left 60%](https://upload.wikimedia.org/wikipedia/commons/0/09/Ishiiruka_Dolphin_logo.png)
 ## Ejemplos sobresalientes de emuladores FOSS 
   - Dolphin
+    - GameCube/Wii
+    - C++
+    - Mejoras tecnicas a la consola
+      - HD, UHD
+    - Con mucha actividad de desarrollo
+    - Licencia GPLv2+
+      - https://github.com/dolphin-emu/dolphin
 ---
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/4/45/RPCS3_vector_logo_%28alternative_trademark%29.svg)
 ## Ejemplos sobresalientes de emuladores FOSS 
   - RPSC3
+    - PS3
+    - C++
+    - 60%+ de compatibilidad
+    - Licencia GPLv2
+      - https://github.com/RPCS3/rpcs3
 ---
+![bg left 60%](https://upload.wikimedia.org/wikipedia/commons/3/35/Yuzu_Emulator.svg)
 ## Ejemplos sobresalientes de emuladores FOSS 
   - Yuzu
+    - Switch
+    - C
+    - Corre en SteamDeck!
+    - GPLv3
+      - https://github.com/yuzu-emu/yuzu
 ---
 ## Ejemplos sobresalientes de emuladores FOSS 
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/0/07/Ryujinx_Logo.png)
   - Ryujinx
+    - Switch
+    - C# (!)
+    - Alternativa a Yuzu
+    - MIT
+      - https://github.com/Ryujinx/Ryujinx
 --- 
 ## Ejemplos sobresalientes de emuladores FOSS 
+![bg left 60%](https://upload.wikimedia.org/wikipedia/commons/2/20/Retroarch_Lakka.svg)
   - Plataformas libretro
     - Retroarch
     - Lakka https://www.lakka.tv/
@@ -195,83 +257,47 @@ https://www.retroreversing.com/
 
 
 ---
-
-# Reproduccion por FPGA:
+![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/9/96/Embedded_World_2016%2C_Altera_Cyclone-V_SE_%28cropped%29.jpg)
+# Recreacion por FPGA:
 * Que es un FPGA?
   * Hardware programable
     * Industria
     * Medicina
     * Videojuegos
 --- 
+![bg left 60%](https://upload.wikimedia.org/wikipedia/commons/7/71/LAB_VHDL_Tiny861_7.png)
+## Recreacion de consolas por FPGA
+ - No es Emulacion, es recreacion del hardware en el FPGA
+ - Nucleos intercambiables segun el hardware.
+
+
+   
+---
+![bg right 60%](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/pictures/MiSTer.jpg)
 ## Proyectos de recreacion FOSS por FPGA
-* MisT
-* MisTER
+   * MisT
+     - Cyclone EP3C25 FPGA
+     - nucleos desde Atari ST hasta Amiga
+   * MisTER
+     - FPGA  'DE10-Nano' modular
+     - nucleos desde PDP-11 hasta PSX
+     - Activo 
 
 ---
 # Conclusiones
 * 4 principios del software libre
-  * como manera de recrear y ejecutar aplicaciones y juegos de plataformas obsoletas <!-- Ejecutarlo donde sea cuando sea sin depender del fabricante -->
+  * Como manera de recrear y ejecutar aplicaciones y juegos de plataformas obsoletas <!-- Ejecutarlo donde sea cuando sea sin depender del fabricante -->
     * Plataforma de ejecucion de dominio publico
-  * como medio de aprendizaje de tecnicas y optimizacion a bajo nivel 
+  * Como medio de aprendizaje de tecnicas y optimizacion a bajo nivel 
     * Desarrollo colaborativo
-  * como plataforma de distribucion de las que antes eran tecnologias privativas 
+  * Como plataforma de distribucion de las que antes eran tecnologias privativas 
     * e.g. MiSTer project
-  * como manera de mejorarlo continuamente 
+  * Como manera de mejorarlo continuamente 
     * e.g. upscalers(ossc), overclocking
 
 ---
-# Dudas
 
+## Dudas, comentarios
 ---
-![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
-
----
-
-<!-- _backgroundColor: "#123" -->
-<!-- _color: "#fff" -->
-
-##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [Vercel](https://vercel.com/)
-
-##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
-
----
-
-![bg right 60%](https://upload.wikimedia.org/wikipedia/commons/9/91/Final_Fantasy_logo_with_japanese_name.svg)
-
-## **[GitHub Pages](https://github.com/pages)**
-
-#### Ready to write & host your deck!
-
-[![Use this as template h:1.5em](https://img.shields.io/badge/-Use%20this%20as%20template-brightgreen?style=for-the-badge&logo=github)](https://github.com/yhatt/marp-cli-example/generate)
-
----
-
-![bg right 60%](https://icongr.am/simple/netlify.svg?colored)
-
-## **[Netlify](https://www.netlify.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Netlify h:1.5em](./assets/netlify-deploy-button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
-
----
-
-![bg right 60%](https://icongr.am/simple/zeit.svg)
-
-## **[Vercel](https://vercel.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Vercel h:1.5em](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
-
----
-
-### <!--fit--> :ok_hand:
-
----
-
-![bg 40% opacity blur](https://avatars1.githubusercontent.com/u/3993388?v=4)
-
-### Created by Yuki Hattori ([@yhatt](https://github.com/yhatt))
-
-https://github.com/yhatt/marp-cli-example
+# Gracias
+### Created by Erik Giron ([@kreig](https://github.com/kreigiron))
